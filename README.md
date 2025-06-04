@@ -81,7 +81,7 @@ medical-image-classifier/
 
 ## ⚠️ Disclaimer (a.k.a. Please Don’t Sue Me)
 
-This is an educational project. This model cannot diagnose, treat, or tell your grandma if her lymphocytes are acting up. For real medical advice, consult a human — preferably one with a degree.
+This is an educational project. This model cannot diagnose, treat, or tell your grandma if her lymphocytes are acting up. For real medical advice, consult a human prefarbly one with a doctorate in medicine.
 
 ---
 
