@@ -86,7 +86,7 @@ This is an educational project. This model cannot diagnose, treat, or tell your 
 
 ---
 
-## 💡 Future Enhancements
+## Future enhancements
 
 - Deploy with **Streamlit** for drag-and-drop predictions (might build the web interface from scratch insted as steamlit has its limitations)
 - Add **Grad-CAM** to visualize which parts of the image the model cares about (very important more research to be done here)
