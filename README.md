@@ -1,5 +1,5 @@
 # StoolClassifier
-A PyTorch image classifier trained on the Blood Cell Images dataset using transfer learning with ResNet18. Classifies images into 4 medical classes (eosinophil, lymphocyte, monocyte, neutrophil). Ideal for showcasing ML pipeline skills. Includes training, inference, and evaluation.
+A PyTorch image classifier trained on the Blood Cell Images dataset using transfer learning with ResNet18. Classifies images into 4 medical classes (eosinophil, lymphocyte, monocyte, neutrophil). 
 # 🧬 Medical Image Classifier (a.k.a. ResNet Saves Lives... Kinda)
 
 Welcome to the world's most over-engineered blood cell sorter. This is a PyTorch-powered, ResNet-fueled, metric-spitting machine that takes one look at a cell and yells “That’s a Lymphocyte!” faster than your bio teacher ever could. 🧪
