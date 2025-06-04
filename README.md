@@ -96,7 +96,7 @@ This is an educational project. This model cannot diagnose, treat, or tell your 
 
 ## ✨ Author
 
-Made by Omari March – powered by curiosity, caffeine, and a concerning number of Stack Overflow tabs.
+Made by Omari March powered by curiosity and caffeine XD
 
 ---
 
