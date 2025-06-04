@@ -8,14 +8,13 @@ Welcome to the world's most over-engineered blood cell sorter. This is a PyTorch
 
 ## 🧠 What Is This?
 
-We built a deep learning model using **transfer learning** with ResNet18 to classify images of blood cells. Think of it like Pokémon Go but for your microscope — instead of Pikachu, you're catching eosinophils, lymphocytes, monocytes, and neutrophils.
+We built a deep learning model using **transfer learning** with ResNet18 to classify images of blood cells. We aim on you're catching eosinophils, lymphocytes, monocytes, and neutrophils.
 
 ---
 
 ## 🗂️ Dataset
 
-We use the [Blood Cell Images dataset](https://www.kaggle.com/datasets/paultimothymooney/blood-cells) from Kaggle. It's a clean, well-organized dataset that makes your average medical data look like your garage during finals week.
-
+We use the [Blood Cell Images dataset](https://www.kaggle.com/datasets/paultimothymooney/blood-cells) from Kaggle. It's a clean, well-organized dataset.
 Directory structure (after running `split_dataset.py`):
 
 ```
@@ -59,9 +58,9 @@ The model will politely whisper (or scream) the predicted class.
 ## 📊 What’s Under the Hood?
 
 - 🧠 **ResNet18** (because we’re not trying to reinvent the neural wheel)
-- 🔁 **Transfer Learning** (pretrained weights to the rescue)
+- 🔁 **Transfer Learning** (pretrained weights to the rescue do not have compute no worries)
 - 🎯 **CrossEntropyLoss + Adam** optimizer
-- 📈 Metrics: Accuracy, Precision, Recall, F1-score (the holy quad)
+- 📈 Metrics: Accuracy, Precision, Recall, F1-score (might extend to other params!)
 
 ---
 
@@ -88,10 +87,10 @@ This is an educational project. This model cannot diagnose, treat, or tell your 
 
 ## 💡 Future Enhancements
 
-- Deploy with **Streamlit** for drag-and-drop predictions
-- Add **Grad-CAM** to visualize which parts of the image the model cares about
-- Cloud deployment with **Hugging Face Spaces** or **Gradio**
-- Train it on *other* datasets like stool images (yup, we’re serious)
+- Deploy with **Streamlit** for drag-and-drop predictions (might build the web interface from scratch insted as steamlit has its limitations)
+- Add **Grad-CAM** to visualize which parts of the image the model cares about (very important more research to be done here)
+- Cloud deployment with **Hugging Face Spaces** or **Gradio** (Probably Hugging Face)
+- Train it on *other* datasets like stool images (yup, we’re serious) this would be the goal!
 
 ---
 
