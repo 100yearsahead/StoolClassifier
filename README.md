@@ -1,5 +1,6 @@
 # StoolClassifier
 A PyTorch image classifier trained on the Blood Cell Images dataset using transfer learning with ResNet18. Classifies images into 4 medical classes (eosinophil, lymphocyte, monocyte, neutrophil). 
+
 # 🧬 Medical Image Classifier (a.k.a. ResNet Saves Lives... Kinda)
 
 Welcome to the world's most over-engineered blood cell sorter. This is a PyTorch-powered, ResNet-fueled, metric-spitting machine that takes one look at a cell and yells “That’s a Lymphocyte!” faster than your bio teacher ever could. 🧪
@@ -32,7 +33,7 @@ Use `split_dataset.py` to auto-slice your data like a pro chef.
 
 ---
 
-## 🚀 Quickstart (a.k.a. How to Look Smart Fast)
+## 🚀 Quickstart 
 
 ### 1. Install Stuff
 ```bash
@@ -57,7 +58,7 @@ The model will politely whisper (or scream) the predicted class.
 
 ## 📊 What’s Under the Hood?
 
-- 🧠 **ResNet18** (because we’re not trying to reinvent the neural wheel)
+- 🧠 **ResNet18** 
 - 🔁 **Transfer Learning** (pretrained weights to the rescue do not have compute no worries)
 - 🎯 **CrossEntropyLoss + Adam** optimizer
 - 📈 Metrics: Accuracy, Precision, Recall, F1-score (might extend to other params!)
@@ -81,7 +82,7 @@ medical-image-classifier/
 
 ## ⚠️ Disclaimer (a.k.a. Please Don’t Sue Me)
 
-This is an educational project. This model cannot diagnose, treat, or tell your grandma if her lymphocytes are acting up. For real medical advice, consult a human prefarbly one with a doctorate in medicine.
+This is an educational project. This model cannot diagnose, treat, or tell your friends that their lymphocytes are acting up. For real medical advice, consult a human prefearbly one with a doctorate in medicine.
 
 ---
 
